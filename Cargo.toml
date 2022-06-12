@@ -1,6 +1,13 @@
 [package]
 name = "session"
-version = "0.1.0"
+version = "0.1.1"
+authors = [
+    "Dan Hartig <kingledion@gmail.com>"
+    ]
+description = "A wrapper for `actix_web::Session` that adds tokens and expiration"
+keywords = ["http", "session", "token", "authentication"]
+repository = "https://github.com/tucenghi/session.git"
+license = "MIT"
 edition = "2021"
 
 [dependencies]
